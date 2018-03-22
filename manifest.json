@@ -1,9 +1,9 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
-  "version": "0.0.1",
+  "name": "Automatic bitbucket merger",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://extensionizr.com",
+  "description": "A small script to approve and merge the pull request. it approves, squashes, checks delete branch checkbox, and then clicks on merge button.",
+  "homepage_url": "http://rahulgaba.com/",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
