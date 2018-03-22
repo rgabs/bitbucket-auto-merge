@@ -23,8 +23,8 @@ chrome.extension.sendMessage({}, function(response) {
 		approveMergeBtn.click(() => execScripts(500, [
 			"$('.approve-button').click();", //approve
 			"$('#fulfill-pullrequest').click()", // start merge process
-			"$('#id_merge_strategy').val('squash')", // squash
 			"$('.select2-chosen').html('Squash')", // setting text to squash
+			"$('#id_merge_strategy').val('squash')", // squash
 			"$('#id_close_anchor_branch').prop('checked', true)", // check delete checkbox
 			"$('button.button-panel-button').click()" //merge button
 		]));

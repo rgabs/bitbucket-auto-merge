@@ -22,7 +22,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://bitbucket.org/truedmp/*"
+        "https://bitbucket.org/*"
       ],
       "js": [
         "js/jquery/jquery.min.js",
